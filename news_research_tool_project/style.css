@@ -1,0 +1,77 @@
+/* ========== RockyBot Professional Theme ========== */
+
+/* General App Background */
+body {
+    background-color: #f8f9fa; /* Light neutral background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+}
+
+/* Streamlit Main Container */
+.main {
+    padding: 2rem;
+}
+
+/* Chat-like Message Styling */
+.rockybot-message {
+    background: linear-gradient(135deg, #0f4c75, #3282b8);
+    color: #fff;
+    padding: 1rem 1.4rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    max-width: 75%;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    font-size: 0.95rem;
+}
+
+/* User Message */
+.user-message {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #fff;
+    padding: 1rem 1.4rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    max-width: 75%;
+    margin-left: auto;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    font-size: 0.95rem;
+}
+
+/* RockyBot Heading */
+h1, h2, h3 {
+    font-weight: 600;
+    color: #0f4c75;
+}
+
+/* Buttons */
+button, .stButton>button {
+    background-color: #0f4c75;
+    color: white;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    border: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #3282b8;
+}
+
+/* Text Inputs */
+input, textarea, select {
+    border-radius: 8px !important;
+    border: 1px solid #ccc !important;
+    padding: 0.6rem !important;
+    font-size: 0.95rem !important;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.85rem;
+    color: #555;
+}
