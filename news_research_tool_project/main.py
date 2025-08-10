@@ -15,7 +15,7 @@ from langchain.schema import Document
 from dotenv import load_dotenv
 
 load_dotenv()  # Load .env (especially OPENAI_API_KEY)
-# Inject CSS
+#Inject CSS
 with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
