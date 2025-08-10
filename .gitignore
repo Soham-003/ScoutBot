@@ -128,7 +128,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-rockyenv
+scoutenv
+.env
 
 # Spyder project settings
 .spyderproject
